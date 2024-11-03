@@ -1,0 +1,19 @@
+{
+  "name": "gogoanimescrape",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv-extended": "^2.9.0",
+    "mongodb": "^6.10.0"
+  }
+}
